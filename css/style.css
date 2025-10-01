@@ -1,0 +1,45 @@
+body {
+    background-color: #add8ab;
+}
+
+header {
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: black;
+}
+
+.profile {
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.center {
+    margin: auto;
+    display: grid;
+    gap: 12px;
+    justify-content: center;
+}
+
+.favicon {
+    width: 24px;
+    height: 24px;
+}
+
+.button {
+    background-color: #78c6dd;
+    border: 2px solid black;
+    border-radius: 12px;
+    color: black;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #78c6dd;
+    color: white;
+}
